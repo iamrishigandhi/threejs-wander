@@ -101,7 +101,7 @@ export class Character {
 	}
 
   	// Wander steering behaviour
-  	wander() {
+	wander() {
 		let d = 10;
 		let r = 10;
 		let a = 0.3;
@@ -126,7 +126,5 @@ export class Character {
 		console.log(wanderForce);
 
 		return wanderForce;
-
-  	}
-
+	}
 }
